@@ -1,0 +1,40 @@
+header {
+    text-align: center;
+}
+
+#messages {
+    margin-left: 1em;
+    list-style: none;
+}
+
+#form {
+    display: flex;
+}
+
+input, label {
+    display: block;
+}
+
+input {
+    outline: none;
+    border: none;
+    padding: 1em .5em;
+    display: block;
+    font-size: 1.5em;
+    flex: 1;
+}
+
+label {
+    display: block;
+    padding: 1em .8em;
+    font-size: 1.5em;
+}
+
+main {
+    margin-left: 10em;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
